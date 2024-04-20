@@ -1,0 +1,37 @@
+/* .carousel {
+        height: 90vh !important;
+      } */
+.carousel-item img {
+  height: calc(100vh - 75px) !important;
+  object-fit: cover;
+  object-position: center;
+}
+.carousel-caption {
+  /* bottom: 23.5rem !important; */
+  margin-bottom: 350px !important;
+  padding: 50px !important;
+  backdrop-filter: blur(5px);
+}
+.w-50 {
+  display: flex;
+  flex-direction: column;
+}
+.card img {
+  height: 240px !important;
+  object-fit: cover;
+  object-position: center;
+}
+.col-12 img {
+  width: 100% !important;
+  height: 240px !important;
+  object-fit: cover;
+  object-position: center;
+}
+@media (max-width: 650px) {
+  .card-div {
+    flex-direction: column;
+  }
+  .content-div {
+    width: 100% !important;
+  }
+}
